@@ -1,0 +1,58 @@
+.specs {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #eef1f5 0%, #e4e8f0 100%);
+    transition: background 0.5s ease;
+}
+
+.specs-table {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.specs-table thead {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.specs-table th {
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.specs-table td {
+    padding: 20px;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.specs-table tr:last-child td {
+    border-bottom: none;
+}
+
+.specs-table tr:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.hero-tagline {
+            font-size: 3rem;
+            font-weight: 700;
+            background: var(--title-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+            margin: 30px 0;
+            animation: title-animate 4s infinite alternate;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }

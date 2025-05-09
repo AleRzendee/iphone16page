@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root {
+  --title-gradient: linear-gradient(to right, #2d5cfe, #9f44d3, #e63c8f);
+  --section-title-gradient: linear-gradient(to right, #2d5cfe, #9f44d3);
+  --feature-icon-gradient: linear-gradient(to right, #2d5cfe, #9f44d3);
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  color: #333;
+  overflow-x: hidden;
+  transition: background 0.5s ease;
+}
